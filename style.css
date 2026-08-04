@@ -47,11 +47,15 @@ body{
 .links a{
     text-decoration: none;
     color: #6b7280;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 10px;
 }
 .links a:hover{
     cursor: pointer;
     transition: 0.2s ease;
     color: #7c3aed;
+    background: #f5f3ff;
 }
 .auth-buttons{
     display: flex;
@@ -94,9 +98,10 @@ button{
 }
 .hero-description{
     max-width: 540px;
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 24px;
+    line-height: 1.5;
     color: #6b7280;
+    font-weight: 500;
 }
 .hero-buttons{
     display: flex;
@@ -119,14 +124,18 @@ button{
 .secondary-btn:hover{
     background: #f3f4f6;
     border-color: #d1d5db;
+    transform: translateY(-2px);
 }
 .login-btn{
     background: transparent;
     border: none;
     font-weight: 600;
+    padding: 12px 22px;
 }
 .login-btn:hover{
     cursor: pointer;
     background:#f3f4f6;
     border-radius: 999px;
+    transition: 0.25s;
+    transform: translateY(-2px);
 }
