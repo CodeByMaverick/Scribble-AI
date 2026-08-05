@@ -97,7 +97,7 @@ button{
     font-weight: 800;
 }
 .hero-description{
-    max-width: 480px;
+    max-width: 540px;
     font-size: 24px;
     line-height: 1.5;
     color: #6b7280;
@@ -138,4 +138,140 @@ button{
     border-radius: 999px;
     transition: 0.25s;
     transform: translateY(-2px);
+}
+.preview-header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 24px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fcfcfc;
+}
+.window-buttons{
+    display: flex;
+    gap: 8px;
+}
+.window-buttons span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.red{
+    background-color: #ff5f57;
+}
+.yellow{
+    background-color: #febc2e;
+}
+.green{
+    background-color: #28c840;
+}
+.preview-body{
+    padding: 40px;
+    display: flex;
+    gap: 64px;
+}
+.editor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+}
+.editor-label{
+    font-size: 14px;
+    color: #7c3aed;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.editor h3{
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #0f0f0f;
+}
+.editor-text{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6b7280;
+    max-width: 680px;
+}
+.suggestions{
+    align-self: center;
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+    flex: 1;
+}
+.suggestions h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+}
+.suggestions-list{
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.suggestion{
+    padding: 10px 18px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f8;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+.suggestion:hover{
+    transform: translateY(-2px);
+    border-color: #7c3aed;
+    box-shadow: 0 8px 20px rgba(124, 58, 237, .12);
+}
+.active-suggestion{
+    background: #f5f3ff;
+    color: #7c3aed;
+    border-color: #e9d5ff;
+}
+.cursor{
+    display: inline-block;
+    width: 2px;
+    height: 22px;
+    background: #7c3aed;
+    margin-left: 3px;
+    vertical-align: middle;
+
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+
+     0%,45%{
+        opacity: 1;
+     }
+
+     50%,100%{
+        opacity: 0;
+     }
+}
+.preview-window{
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(15, 15, 15, 0.08);
+
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float{
+
+    0%,100%{
+        transform: translateY(0);
+        box-shadow: 0 20px 60px rgba(15, 15, 15, .08);
+    }
+    50%{
+        transform: translateY(-8px);
+        box-shadow: 0 30px 80px rgba(15, 15, 15, .12); 
+    }
 }
