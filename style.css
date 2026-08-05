@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #ffffff ;
     color: #0f0f0f;
 }
@@ -97,7 +97,7 @@ button{
     font-weight: 800;
 }
 .hero-description{
-    max-width: 540px;
+    max-width: 480px;
     font-size: 24px;
     line-height: 1.5;
     color: #6b7280;
