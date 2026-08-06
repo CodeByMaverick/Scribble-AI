@@ -281,3 +281,31 @@ button{
         box-shadow: 0 30px 80px rgba(15, 15, 15, .12); 
     }
 }
+.logo-strip{
+    margin-top: 80px;
+    background-color: #f7f7f8;
+    padding: 32px 0;
+    border-radius: 24px;
+}
+.logo-text{
+    display: flex;
+    justify-content: center;
+    color: #6b7280;
+    margin-bottom: 60px;
+}
+.logo-list{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+.logo-list span{
+    font-size: 15px;
+    font-weight: 600;
+    color: #9ca3af;
+    letter-spacing: .02em;
+    transition: 0.2s ease;
+}
+.logo-list span:hover{
+    color: #6b7280;
+}
