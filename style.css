@@ -309,3 +309,65 @@ button{
 .logo-list span:hover{
     color: #6b7280;
 }
+.features{
+    padding: 180px 0;
+    text-align: center;
+}
+.section-label{
+    color: #7c3aed;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+.features h2{
+    max-width: 850px;
+    margin: 16px auto 0;
+    margin-top: 16px;
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+.section-description{
+    max-width: 600px;
+    margin: 24px auto 0;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #6b7280;
+}
+.features-grid{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    margin-top: 64px;
+    flex-wrap: wrap;
+}
+.feature-card{
+    width: 360px;
+    padding: 36px;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    background-color: #fff;
+    text-align: left;
+    transition: all .25s ease;
+}
+.feature-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(15, 15, 15, .08);
+}
+.feature-icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background-color: #ede9fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 24px;
+    transition: transform .25s ease;
+}
+.feature-card:hover, .feature-icon{
+    transform: rotate(-8deg) scale(1.08);
+}
