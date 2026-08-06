@@ -262,6 +262,8 @@ button{
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(15, 15, 15, 0.08);
 
+    transform: .35s ease;
+    box-shadow: .35s ease;
     animation: float 3.5s ease-in-out infinite;
 }
 @keyframes float{
