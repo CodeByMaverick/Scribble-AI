@@ -34,7 +34,7 @@ body{
     height: 500px;
     background: #f7f7f8;
     border-radius: 24px;
-    margin-top: 80px;
+    margin-top: 56px;
 }
 .logo{
     font-size: 28px;
@@ -116,14 +116,13 @@ button{
 }
 .secondary-btn{
     background: transparent;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #0f0f0f;
     border-radius: 999px;
     cursor: pointer;
     transition: 0.25s ease;
 }
 .secondary-btn:hover{
     background: #f3f4f6;
-    border-color: #d1d5db;
     transform: translateY(-2px);
 }
 .login-btn{
@@ -178,9 +177,9 @@ button{
     flex: 2;
 }
 .editor-label{
-    font-size: 14px;
+    font-size: 15px;
     color: #7c3aed;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -217,12 +216,13 @@ button{
     flex-wrap: wrap;
 }
 .suggestion{
-    padding: 10px 18px;
-    border: 1px solid #ececec;
+    padding: 12px 18px;
+    border: 1px solid #e7e7e8;
     background-color: #f7f7f8;
     border-radius: 999px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
+    cursor: pointer;
     transition: all .25s ease;
 }
 .suggestion:hover{
@@ -262,7 +262,7 @@ button{
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(15, 15, 15, 0.08);
 
-    animation: float 4s ease-in-out infinite;
+    animation: float 3.5s ease-in-out infinite;
 }
 @keyframes float{
 
