@@ -19,14 +19,31 @@ const text = "Remote work is no longer just a trend. Teams across the world are 
 
 let i = 0;
 
+let deleting = false;
+
 function typeWriter(){
-    if(i < text.length){
 
-        editorText.textContent += text.charAt(i);
+    if(!deleting){
 
+        editorText.textContent = text.substring(0, i);
         i++;
-
-        setTimeout(typeWriter, 25);
+        if(i > text.length){
+            deleting = true;
+            setTimeout(typeWriter, 2000);
+            return;
+        }
     }
+
+    else{
+        editorText.textContent = text.substring(0, i);
+        i--;
+        if(i < 0){
+
+            deleting = false;
+            i = 0;
+        }
+    }
+
+    setTimeout(typeWriter, deleting ? 15 : 30);
 }
 typeWriter();

@@ -244,12 +244,12 @@ button{
 .cursor{
     display: inline-block;
     width: 2px;
-    height: 22px;
+    height: 28px;
     background: #7c3aed;
-    margin-left: 3px;
+    margin-left: 2px;
     vertical-align: middle;
 
-    animation: blink 1s infinite;
+    animation: blink 0.8s infinite;
 }
 @keyframes blink{
 
