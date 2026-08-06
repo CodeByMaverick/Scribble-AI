@@ -195,6 +195,12 @@ button{
     color: #6b7280;
     max-width: 680px;
 }
+.status{
+    color: #7c3aed;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 500;
+}
 .suggestions{
     align-self: center;
     display: flex;
