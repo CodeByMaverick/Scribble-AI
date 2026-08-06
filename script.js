@@ -11,7 +11,7 @@ setInterval(() => {
         activeIndex = 0;
     }
     suggestions[activeIndex].classList.add("active-suggestion");
-}, 2500);
+}, 1200);
 
 const editorText = document.querySelector(".editor-text");
 
