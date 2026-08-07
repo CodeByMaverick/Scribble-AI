@@ -47,3 +47,42 @@ function typeWriter(){
     setTimeout(typeWriter, deleting ? 15 : 30);
 }
 typeWriter();
+
+const monthlyBtn = document.getElementById("monthly-button")
+const yearlyBtn = document.getElementById("yearly-button")
+
+const freePrice = document.getElementById("free-price")
+const proPrice = document.getElementById("pro-price")
+const teamPrice = document.getElementById("team-price")
+
+const freePeriod = document.getElementById("free-period")
+const proPeriod = document.getElementById("pro-period")
+const teamPeriod = document.getElementById("team-period")
+
+monthlyBtn.addEventListener("click", () =>{
+
+    monthlyBtn.classList.add("active");
+    yearlyBtn.classList.remove("active");
+
+    freePrice.textContent = "$0"
+    proPrice.textContent = "$15"
+    teamPrice.textContent = "$39"
+
+    freePeriod.textContent = "/mo"
+    proPeriod.textContent = "/mo"
+    teamPeriod.textContent = "/mo"
+});
+
+yearlyBtn.addEventListener("click", () =>{
+
+    yearlyBtn.classList.add("active");
+    monthlyBtn.classList.remove("active");
+
+    freePrice.textContent = "$0"
+    proPrice.textContent = "$144"
+    teamPrice.textContent = "$375"
+
+    freePeriod.textContent = "/year"
+    proPeriod.textContent = "/year"
+    teamPeriod.textContent = "/year"
+});
