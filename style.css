@@ -452,7 +452,7 @@ button{
     font-weight: 600;
     color: #7c3aed;
     cursor: pointer;
-    transition: .3s;
+    transition: .25s;
 }
 .toggle-btn.active{
     background-color: white;
@@ -460,6 +460,7 @@ button{
 }
 .toggle-btn:hover{
     background-color: white;
+    transform: scale(1.03);
 }
 .save-badge{
     background-color: #dcfce7;
@@ -468,6 +469,10 @@ button{
     font-weight: 700;
     padding: 7px 14px;
     border-radius: 999px;
+    transition: .25s;
+}
+.save-badge:hover{
+    transform: scale(1.08);
 }
 .pricing-cards{
     display: flex;
@@ -481,10 +486,18 @@ button{
     border-radius: 24px;
     padding: 32px;
     background: white;
+    transition: all .3s ease;
+}
+.price-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .08);
 }
 .featured{
     border: 2px solid #7c3aed;
     position: relative;
+}
+.featured:hover{
+    box-shadow: 0 22px 45px rgba(124, 58, 237, .18);
 }
 .popular-badge{
     position: absolute;
@@ -553,4 +566,20 @@ button{
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    transition: all .25s ease;
+}
+.plan-button:hover{
+    background: #111827;
+    color: white;
+}
+.plan-button.active{
+    background-color: #7c3aed;
+    color: white;
+}
+.featured .plan-button:hover{
+    background: #6d28d9;
+    transform: translateY(-2px);
 }
