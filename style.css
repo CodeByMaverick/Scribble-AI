@@ -583,3 +583,21 @@ button{
     background: #6d28d9;
     transform: translateY(-2px);
 }
+.testimonials{
+    background: #f7f7f8;
+    padding: 100px 0;
+}
+.testimonials .container{
+    text-align: center;
+}
+.testimonials .section-label{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.testimonials h2{
+    margin-bottom: 24px;
+}
+.testimonials .section-description{
+    max-width: 650px;
+    margin: auto 0;
+}
