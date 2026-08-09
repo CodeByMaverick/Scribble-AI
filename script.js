@@ -86,3 +86,29 @@ yearlyBtn.addEventListener("click", () =>{
     proPeriod.textContent = "/year"
     teamPeriod.textContent = "/year"
 });
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach((item) => {
+    const question = item.querySelector(".faq-question");
+    const answer = item.querySelector(".faq-answer");
+    const icon = item.querySelector(".icon");
+
+    question.addEventListener("click", () => {
+
+        faqItems.forEach((faq) => {
+            if(faq !== item){
+                faq.querySelector(".faq-answer").style.display = "none";
+                faq.querySelector(".icon").textContent = "+";
+            }
+        });
+
+        if(answer.style.display === "block") {
+            answer.style.display = 'none';
+            icon.textContent = "+"
+        } else{
+            answer.style.display = "block";
+            icon.textContent = "-";
+        }
+    });
+});

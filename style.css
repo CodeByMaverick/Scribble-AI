@@ -685,6 +685,9 @@ button{
     padding: 28px 0;
     cursor: pointer;
 }
+.faq-question:hover{
+    color: #6d28d9;
+}
 .faq-question span:first-child{
     font-size: 20px;
     font-weight: 600;
@@ -695,13 +698,26 @@ button{
     font-size: 28px;
     font-weight: 300;
     color: #6d28d9;
-    transition: .3s;
+    transition: transform .3s ease;
 }
-.faq-answers{
-    display: none;
+.faq-answer{
+    display: none; 
+    overflow: hidden;
+    animation: fadeDown .3s ease;
 }
-.faq-answers p{
+.faq-answer p{
     color: #6b7280;
     line-height: 1.8;
     padding-bottom: 28px;
+}
+@keyframes fadeDown{
+
+    from{
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
