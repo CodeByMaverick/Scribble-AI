@@ -660,3 +660,48 @@ button{
     color: #6b7280;
     font-size: 14px;
 }
+.faq{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.faq-container{
+    max-width: 680px;
+    margin: 0 auto;
+}
+.faq h2{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.faq-item{
+    border-bottom: 1px solid #e5e7eb;
+}
+.faq-question{
+    width: 100%;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+    cursor: pointer;
+}
+.faq-question span:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    text-align: left;
+}
+.icon{
+    font-size: 28px;
+    font-weight: 300;
+    color: #6d28d9;
+    transition: .3s;
+}
+.faq-answers{
+    display: none;
+}
+.faq-answers p{
+    color: #6b7280;
+    line-height: 1.8;
+    padding-bottom: 28px;
+}
