@@ -721,3 +721,43 @@ button{
         transform: translateY(0);
     }
 }
+.cta{
+    background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+    padding: 80px 0;
+}
+.cta .container{
+    text-align: center;
+}
+.cta h2{
+    color: white;
+    margin-bottom: 24px;
+}
+.cta p{
+    color: rgba(255, 255, 255, .85);
+    max-width: 650px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+.btn-light{
+    background-color: white;
+    color: #7c3aed;
+}
+.btn-light:hover{
+    border-color: #f8f8f8;
+}
+.cta-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    color: #7c3aed;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.cta-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .18);
+}
