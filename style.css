@@ -1009,3 +1009,52 @@ button{
         min-width: 0;
     }
 }
+
+@media (max-width: 600px){
+
+    .container{
+        width: 92%;
+    }
+    .navbar{
+        padding: 18px 0;
+    }
+    .logo{
+        gap: 8px;
+    }
+    .logo-icon{
+        width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+    .logo h1{
+        font-size: 22px;
+        white-space: nowrap;
+    }
+    .links{
+        display: none;
+    }
+    .hero h1{
+        font-size: 52px;
+        line-height: 1.2;
+    }
+    .hero p{
+        font-size: 20px;
+        line-height: 1.45;
+    }
+    .hero-buttons{
+        gap: 10px;
+    }
+    .hero-buttons a{
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    .trust-info{
+        gap: 12px;
+    }
+    .trust-info span{
+        font-size: 14px;
+    }
+    .badge{
+        padding: 6px 10px;
+    }
+}
