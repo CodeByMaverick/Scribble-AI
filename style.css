@@ -1057,4 +1057,23 @@ button{
     .badge{
         padding: 6px 10px;
     }
+    .hero-preview{
+        margin-bottom: 140px;
+    }
+    .preview-body{
+        gap: 24px;
+    }
+    .editor-label{
+        font-size: 18px;
+    }
+    .status{
+        font-size: 16px;
+    }
+    .suggestions{
+        gap: 10px;
+    }
+    .suggestion{
+        padding: 9px 14px;
+        font-size: 14px;
+    }
 }
