@@ -1117,4 +1117,20 @@ button{
         font-size: 24px;
         margin-bottom: 22px;
     }
+    .pricing-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .price-card{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .pricing{
+        padding: 70px 16px;
+    }
+    .pricing h2{
+        font-size: 48px;
+    }
 }
