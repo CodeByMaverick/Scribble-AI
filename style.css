@@ -1133,4 +1133,16 @@ button{
     .pricing h2{
         font-size: 48px;
     }
+    .testimonial-grid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 360px;
+        gap: 20px;
+    }
+    .testimonial-card{
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+    }
 }
