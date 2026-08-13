@@ -1145,4 +1145,47 @@ button{
         min-width: 0;
         max-width: 100%;
     }
+    .footer-top{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px 32px;
+    }
+    .footer-brand{
+        grid-column: 1/-1;
+    }
+    .footer-column{
+        min-width: 0;
+    }
+    .footer-column:last-child{
+        grid-column: 1/-1;
+    }
+    .footer-column a{
+        display: block;
+        margin-bottom: 12px;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .footer-column h4{
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .footer-brand h3{
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .footer-brand p{
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 180px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .footer-bottom p{
+        margin: 0%;
+    }
 }
