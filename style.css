@@ -1089,4 +1089,32 @@ button{
     .features{
         padding: 70px 0;
     }
+    .how-it-works{
+        padding: 60px 16px;
+    }
+    .how-it-works h2{
+        font-size: 30px;
+        line-height: 1.15;
+        margin-bottom: 60px;
+    }
+    .steps{
+        display: grid;
+        gap: 8px;
+    }
+    .step-number{
+        font-size: 56px;
+        line-height: 1;
+    }
+    .steps h3{
+        font-size: 22px;
+        line-height: 1.15;
+    }
+    .steps p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .step-arrow{
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
 }
