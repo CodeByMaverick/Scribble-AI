@@ -1075,6 +1075,7 @@ button{
     .suggestion{
         padding: 9px 14px;
         font-size: 14px;
+        color: #0f0f0f;
     }
     .features h2{
         font-size: 42px;
@@ -1187,5 +1188,11 @@ button{
     }
     .footer-bottom p{
         margin: 0%;
+    }
+    .login-btn{
+        color: #0f0f0f;
+    }
+    .secondary-btn{
+        color: #0f0f0f;
     }
 }
